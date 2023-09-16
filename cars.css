@@ -1,0 +1,142 @@
+.cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  
+  #section-title {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    text-decoration: underline;
+    margin-left: 95px;
+  
+  }
+  
+  .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    
+  }
+  
+  .card1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    width: 395px;
+    height: 520px;
+  }
+  
+  .card1:hover {
+    transition: all 0.3s ease-in-out;
+    filter: none;
+    cursor: pointer;
+    width: 405px;
+    height: 530px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 1);
+  }
+  
+  .card-info {
+    padding: 2px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 600;
+    font-size:large;
+    
+  }
+  .card-info h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-weight: 1000;
+    color: rgb(7, 7, 49);
+  }
+  #details{
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+  }
+  
+  #card-bg {
+    width: 370px;
+    height: 240px;
+  }
+  
+  .card-info dl {
+    width: 400px;
+
+  }
+  /*expensive cars style*/
+  .cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  .expcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .card2 {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    width: 270px;
+    height: 480px;
+  }
+  
+  #expcard-bg {
+    width: 260px;
+    height: 200px;
+  }
+  
+  .card-info dl {
+    width: 250px;
+    padding-left: 5px;
+
+  }
+   /*best selling cars style*/
+   .cars {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    padding: 20px;
+  }
+  .bestcards{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .card3 {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+    width: 450px;
+    height: 520px;
+  }
+  
+  #bestcard-bg {
+    width: 300px;
+    height: 200px;
+    margin-left: 10px;
+  }
+  
+  .card-info dl {
+    width: 250px;
+    padding-left: 5px;
+
+  }
+  /*table*/
+table{
+  width: 100%;
+  height: 200px;
+}
+th,td{
+  border-bottom: solid 1px #16588e;
+}
+th{
+  background-color: #81c4ff57;
+}
+tr:nth-child(even){
+  background-color: #c7c6c6;
+}
+  

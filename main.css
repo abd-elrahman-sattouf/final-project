@@ -1,0 +1,58 @@
+/*nav css*/
+nav {
+    background-color: #16588e;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 50px;
+  }
+  
+  #nav {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+  }
+  #nav li a {
+    color: #81c4ff;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+  }
+  
+  #nav li a:hover {
+    color: white;
+    transition: all 0.3s ease-in-out;
+  }
+  /*footer*/
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #16588e;
+    color:#ffffff;
+    gap: 10px;
+    height: 50px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  #insta{
+    padding-top: 3px;
+    height: 45px;
+  
+  }
+  #linked{
+    padding-top: 3px;
+    height: 45px;
+  
+  }
+  /*video */
+  #video{
+    width: 70%;
+    height: 30%;
+  }
+
+ 
+ 
